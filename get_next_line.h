@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: mrakgope <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/06/29 02:31:44 by mrakgope          #+#    #+#             */
-/*   Updated: 2019/06/29 02:32:59 by mrakgope         ###   ########.fr       */
+/*   Created: 2019/07/29 11:23:24 by mrakgope          #+#    #+#             */
+/*   Updated: 2019/07/29 11:26:56 by mrakgope         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,6 @@
 # define BUFF_SIZE 32
 # include "libft/libft.h"
 
-int get_next_line(int const fd, char **line);
+int	get_next_line(int const fd, char **line);
 
 #endif
